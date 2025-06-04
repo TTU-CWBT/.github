@@ -1,6 +1,7 @@
 ## Welcome to the TTU CWBT 👋
 
-這裡是大同大學 無線寬頻技術中心(Center of Wireless Broadband Technology, CWBT)，我們致力於研究行動通訊相關技術，其中主要研究的領域有訊號處理、基地台與網路安全和人工智慧應用...
+大同大學(TTU)無線寬頻技術中心(Center of Wireless Broadband Technology, CWBT)自2008年成立至今，長期致力於次世代行動通訊網路技術之研究，依領域概分為系統(System)、網路(Network)及AI應用(AI Applications)等三大組別，整合跨領域資源與專業知識，積極投入5G/6G行動通訊、物聯網(IoT)、邊緣運算及人工智慧於通訊系統或服務之創新應用等核心技術開發。中心亦與產業界緊密合作，參與多項研究計畫與技術轉移案，致力於培育具備理論與實務能力之通訊人才，推動臺灣在無線通訊領域的技術發展與國際競爭力。
+
 ## Webside
 [Cho group](https://sites.google.com/view/lcho/home?authuser=0)
 
