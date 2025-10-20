@@ -7,6 +7,38 @@
 
 
 ### Group of signal processing
+訊號處理組致力於 **無線傳輸時使用的波型研究** ，研究重點涵蓋 **尋找OFDM (orhogonal frequency-division multiplexing)與其延伸波型的減少缺點與效能降低之平衡、衛星訊號的多天線接收技** 、以及**下世代行動通訊(6G)之使用技術** 。我們以理論推理與電腦實驗模擬為主，並輔以實際設備做實際測試。
+
+#### 主要研究方向
+##### OFDM的效能與缺點之平衡
+
+- 主要減少其PAPR(peak-to-average power ratio)與非線性PA(power amplifier)所造成的訊號失真問題
+    - 使用companding來放大能量小的訊號、縮小能量大的訊號降低PAPR
+    - 使用PGIR(Papoulis-Gerchberg type iterative reconstruction)的訊號還原技術還原失真訊號
+    - 使用Tone Reservation保留一部份的子載波，使其PAPR降低
+- OFDM之延伸波型
+    - OFDM-IM (index modulation)
+    - DFT-s-OFDM (discrete Fourier transform-spread-OFDM)
+    - Optical OFDM
+##### 其他波型
+- OTFS
+
+##### 衛星訊號之多接收天線處理
+- 使用了MRC(maximum ratio combining)、EGC(equal gain combining)合成多路接收訊號，放大其訊號能量，使其SNR(signal-to-noise ratio)變高
+- 練續接收訊號的同時也連續合成訊號，達成不中斷訊號
+
+##### 下世代行動通訊(6G)使用技術
+- ISAC(integral sensing and communication)，能夠讓通訊擁有感測能力，或是在感測同時能夠傳輸訊息
+- RIS(reconfigurable intelligent surface)，能夠反射mmWave，使其覆蓋範圍變得更廣
+
+#### 我們的開發工具
+通訊使用了大量的數學矩陣運算，因此會大量使用MATLAB作為軟體模擬。
+而目前有以下實驗器材
+- Yttek YTPC0564 (E1000 SDR)
+- Yttek YTRS0289 (RIS)
+- Yttek YTFE0285 (mmWave陣列天線模組)
+- USRP B210
+
 
 ### Group of network
 
